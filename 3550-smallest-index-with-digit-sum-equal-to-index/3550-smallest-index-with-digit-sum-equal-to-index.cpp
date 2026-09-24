@@ -8,7 +8,7 @@ public:
                 sum+=m%10;
                 m = m/10;
             }
-            if(sum==i) return sum;
+            if(sum==i) return i;
         }
         return -1;
     }
